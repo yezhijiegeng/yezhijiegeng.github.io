@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 夜之篱
 subtitle:
 description:
 keywords:
-author: John Doe
-language: en
+author: Taozi
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://yezhijiegeng.github.io
-root: /blog
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -84,12 +84,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: shana
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yezhijiegeng/blog
+  repo: https://github.com/yezhijiegeng/yezhijiegeng.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
+  message: '小桃子'
   branch: master
